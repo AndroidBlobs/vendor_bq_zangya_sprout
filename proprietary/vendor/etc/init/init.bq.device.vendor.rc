@@ -1,0 +1,5 @@
+import /vendor/etc/init/hw/init.bq.usb.configfs.rc
+
+on boot
+    chown system system /dev/goodix_fp
+    chmod 0644          /dev/goodix_fp
